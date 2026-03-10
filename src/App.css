@@ -1,0 +1,126 @@
+body{
+  background:#f4f6f9;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width:70%;
+  margin:auto;
+  margin-top:40px;
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.title{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.form{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.form input{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+.addBtn{
+  background:#4CAF50;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.addBtn:hover{
+  background:#45a049;
+}
+
+.table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.table th{
+  background:#2c3e50;
+  color:white;
+  padding:10px;
+}
+
+.table td{
+  padding:10px;
+  border-bottom:1px solid #ddd;
+}
+
+.table tr:hover{
+  background:#f1f1f1;
+}
+
+.editBtn{
+  background:#3498db;
+  color:white;
+  border:none;
+  padding:6px 10px;
+  margin-right:5px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.deleteBtn{
+  background:#e74c3c;
+  color:white;
+  border:none;
+  padding:6px 10px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.excelBtn{
+  background:#27ae60;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:5px;
+  margin-bottom:10px;
+  cursor:pointer;
+}
+
+.loading{
+  text-align:center;
+  font-size:18px;
+}
+
+.topBar{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+
+.search{
+  padding:10px;
+  width:250px;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
+
+.count{
+  font-weight:bold;
+  font-size:16px;
+}
+
+.cancelBtn{
+  background:#7f8c8d;
+  color:white;
+  border:none;
+  padding:10px;
+  border-radius:5px;
+  margin-left:10px;
+  cursor:pointer;
+}
